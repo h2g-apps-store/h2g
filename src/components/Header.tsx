@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 export default function Header() {
   const pathname = usePathname();
   return (
-    <header className=" absolute w-full flex justify-between px-5  text-black py-10">
+    <header className=" absolute w-full flex justify-between px-24  text-black py-10">
       <Link
         href="/"
         className={
