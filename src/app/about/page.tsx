@@ -71,7 +71,7 @@ export default function page() {
       </section>
       <section className="bg-[#3a5244] min-h-screen px-24 py-20 flex justify-between gap-40">
         <div className="w-[40%] relative">
-          <div className="border border-gray-200 absolute w-full bg-[url('/image.jpeg')] bg-cover h-full -top-48"></div>
+          <div className="border-2 border-gray-200 absolute w-full bg-[url('/image.jpeg')] bg-cover h-full -top-48"></div>
         </div>
         <div className="w-[70%] space-y-5">
           <p className=" text-2xl text-justify font-light">
