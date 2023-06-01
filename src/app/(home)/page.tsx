@@ -7,11 +7,16 @@ export default function Home() {
         <Header />
         <div className="flex">
           <div className="bg-[#d8e3ff] w-[2500px]">
-            <div className="h-[700px] p-40">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
-              sunt sint esse consequatur id officia maxime, sit accusantium fuga
-              doloremque nam vitae doloribus error! Cumque blanditiis dolores
-              rerum dignissimos repellat?
+            <div className="h-[700px] py-40 px-32 space-y-5">
+              <h1 className="font-bold text-6xl">UI/UX & Brand Designer</h1>
+              <h6 className="text-2xl">Brighton, UK</h6>
+              <div>
+                <p className="text-justify text-3xl">
+                  I'm Greg, a freelance graphic and web designer who specialises
+                  in branding, user interface and user experience design. I help
+                  businesses develop their on and offline identities.
+                </p>
+              </div>
             </div>
             <div className="bg-[#313b57] h-40"></div>
           </div>
