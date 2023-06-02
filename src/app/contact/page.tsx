@@ -1,6 +1,6 @@
 export default function page() {
   return (
-    <main className="main-h-screen bg-[#313b57] px-24 py-40">
+    <main className="h-screen bg-[#313b57] px-24 py-40">
       <section className="w-full flex justify-between items-center gap-10 space-y-5">
         <div className="w-[60%] space-y-7 py-20">
           <h1 className="text-6xl font-bold">Let's Talk</h1>
