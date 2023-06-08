@@ -13,7 +13,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="text-center bg-[#f4f4f4] py-4">
-        <p>Proudly made in 🇨🇩 2023</p>
+        <p>@kg.geku 🇨🇩 2023</p>
       </div>
     </footer>
   );
