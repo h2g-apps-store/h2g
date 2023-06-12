@@ -9,7 +9,7 @@ export default function page() {
           <a
             className="relative block w-full h-64
                       bg-gray-900 group shadow-xl"
-            href="##"
+            href="/work"
           >
             <div
               className="absolute bg-[url('/projets/p-1.png')] bg-cover bg-center inset-0
@@ -48,7 +48,7 @@ export default function page() {
           <a
             className="relative block w-full h-64
                       bg-gray-900 group shadow-xl"
-            href="##"
+            href="/work"
           >
             <div
               className="absolute bg-[url('/projets/p-2.png')] bg-cover bg-center inset-0
@@ -87,7 +87,7 @@ export default function page() {
           <a
             className="relative block w-full h-64
                       bg-gray-900 group shadow-xl"
-            href="##"
+            href="/work"
           >
             <div
               className="absolute bg-[url('/projets/p-3.jpeg')] bg-cover bg-center inset-0
@@ -126,7 +126,7 @@ export default function page() {
           <a
             className="relative block w-full h-64
                       bg-gray-900 group shadow-xl"
-            href="##"
+            href="/work"
           >
             <div
               className="absolute bg-[url('/projets/p-4.jpeg')] bg-cover bg-center inset-0
@@ -165,7 +165,7 @@ export default function page() {
           <a
             className="relative block w-full h-64
                       bg-gray-900 group shadow-xl"
-            href="##"
+            href="/work"
           >
             <div
               className="absolute bg-[url('/projets/p-5.png')] bg-cover bg-center inset-0
@@ -204,7 +204,7 @@ export default function page() {
           <a
             className="relative block w-full h-64
                       bg-gray-900 group shadow-xl"
-            href="##"
+            href="/work"
           >
             <div
               className="absolute bg-[url('/projets/p-1.png')] bg-cover bg-center inset-0
