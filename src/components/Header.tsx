@@ -21,8 +21,8 @@ export default function Header() {
         <ul
           className={
             pathname == "/"
-              ? "flex gap-10 text-[#313b57] text-2xl font-bold"
-              : "flex gap-10 text-[#aab5d0] text-2xl font-bold"
+              ? "flex justify-between gap-10 text-[#f4f4f4] text-2xl font-bold"
+              : "flex justify-between gap-10 text-[#aab5d0] text-2xl font-bold"
           }
         >
           <li className="hover:underline underline-offset-8 decoration-4">
