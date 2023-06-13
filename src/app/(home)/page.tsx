@@ -1,7 +1,6 @@
 import Header from "@/components/Header";
-import Image from "next/image";
+import TechnoSlider from "@/components/TechnoSlider";
 import Link from "next/link";
-import Marquee from "react-fast-marquee";
 
 export default function Home() {
   return (
@@ -29,7 +28,7 @@ export default function Home() {
         </div>
       </section>
       <section className="bg-[#313b57] h-screen pr-24 py-20">
-        <div className="flex gap-32">
+        <div className="flex gap-32 mt-9">
           <div className="bg-white max-h-[590px] h-[590px] w-[3000px] bg-[url('/fromscratch/5.jpg')] bg-cover bg-center rounded-tr-3xl rounded-br-3xl p-20 shadow-2xl shadow-gray-900"></div>
           <div className="flex flex-col items-left gap-4 justify-center">
             <h1 className="text-5xl font-bold">Consul Assure</h1>
@@ -47,143 +46,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="bg-[#d8e3ff]  py-10">
-        <Marquee direction="left">
-          <div className="flex gap-5 space-x-5 items-center">
-            <Image
-              src="/techno/html.png"
-              className="ml-10"
-              width={50}
-              height={50}
-              alt="html"
-            />
-            <Image src="/techno/css.png" width={50} height={50} alt="html" />
-            <Image src="/techno/js.png" width={50} height={50} alt="html" />
-            <Image src="/techno/ts.svg" width={50} height={50} alt="html" />
-            <Image src="/techno/git.png" width={50} height={50} alt="html" />
-            <Image src="/techno/github.svg" width={50} height={50} alt="html" />
-            <Image src="/techno/prisma.png" width={50} height={50} alt="html" />
-            <Image src="/techno/mysql.png" width={50} height={50} alt="html" />
-            <Image src="/techno/vscode.png" width={50} height={50} alt="html" />
-            <Image src="/techno/npm.png" width={50} height={50} alt="html" />
-            <Image src="/techno/yarn.png" width={50} height={50} alt="html" />
-            <Image src="/techno/pnpm.svg" width={50} height={50} alt="html" />
-            <Image src="/techno/react.png" width={50} height={50} alt="html" />
-            <Image src="/techno/redux.png" width={50} height={50} alt="html" />
-            <Image src="/techno/rquery.png" width={50} height={50} alt="html" />
-            <Image
-              src="/techno/tailwind.jpeg"
-              width={50}
-              height={50}
-              alt="html"
-            />
-            <Image src="/techno/vite.png" width={50} height={50} alt="html" />
-            <Image src="/techno/next.png" width={50} height={50} alt="html" />
-            <Image
-              src="/techno/MongoDB.jpeg"
-              width={50}
-              height={50}
-              alt="html"
-            />
-            <Image
-              src="/techno/firebase.png"
-              width={50}
-              height={50}
-              alt="html"
-            />
-          </div>
-        </Marquee>
-        <Marquee direction="right">
-          <div className="flex gap-5 space-x-5 items-center">
-            <Image
-              src="/techno/html.png"
-              className="ml-10"
-              width={50}
-              height={50}
-              alt="html"
-            />
-            <Image src="/techno/css.png" width={50} height={50} alt="html" />
-            <Image src="/techno/js.png" width={50} height={50} alt="html" />
-            <Image src="/techno/ts.svg" width={50} height={50} alt="html" />
-            <Image src="/techno/git.png" width={50} height={50} alt="html" />
-            <Image src="/techno/github.svg" width={50} height={50} alt="html" />
-            <Image src="/techno/prisma.png" width={50} height={50} alt="html" />
-            <Image src="/techno/mysql.png" width={50} height={50} alt="html" />
-            <Image src="/techno/vscode.png" width={50} height={50} alt="html" />
-            <Image src="/techno/npm.png" width={50} height={50} alt="html" />
-            <Image src="/techno/yarn.png" width={50} height={50} alt="html" />
-            <Image src="/techno/pnpm.svg" width={50} height={50} alt="html" />
-            <Image src="/techno/react.png" width={50} height={50} alt="html" />
-            <Image src="/techno/redux.png" width={50} height={50} alt="html" />
-            <Image src="/techno/rquery.png" width={50} height={50} alt="html" />
-            <Image
-              src="/techno/tailwind.jpeg"
-              width={50}
-              height={50}
-              alt="html"
-            />
-            <Image src="/techno/vite.png" width={50} height={50} alt="html" />
-            <Image src="/techno/next.png" width={50} height={50} alt="html" />
-            <Image
-              src="/techno/MongoDB.jpeg"
-              width={50}
-              height={50}
-              alt="html"
-            />
-            <Image
-              src="/techno/firebase.png"
-              width={50}
-              height={50}
-              alt="html"
-            />
-          </div>
-        </Marquee>
-        {/* <Marquee direction="left">
-          <div className="flex gap-5 space-x-5 items-center">
-            <Image
-              src="/techno/html.png"
-              className="ml-10"
-              width={50}
-              height={50}
-              alt="html"
-            />
-            <Image src="/techno/css.png" width={50} height={50} alt="html" />
-            <Image src="/techno/js.png" width={50} height={50} alt="html" />
-            <Image src="/techno/ts.svg" width={50} height={50} alt="html" />
-            <Image src="/techno/git.png" width={50} height={50} alt="html" />
-            <Image src="/techno/github.svg" width={50} height={50} alt="html" />
-            <Image src="/techno/prisma.png" width={50} height={50} alt="html" />
-            <Image src="/techno/mysql.png" width={50} height={50} alt="html" />
-            <Image src="/techno/vscode.png" width={50} height={50} alt="html" />
-            <Image src="/techno/npm.png" width={50} height={50} alt="html" />
-            <Image src="/techno/yarn.png" width={50} height={50} alt="html" />
-            <Image src="/techno/pnpm.svg" width={50} height={50} alt="html" />
-            <Image src="/techno/react.png" width={50} height={50} alt="html" />
-            <Image src="/techno/redux.png" width={50} height={50} alt="html" />
-            <Image src="/techno/rquery.png" width={50} height={50} alt="html" />
-            <Image
-              src="/techno/tailwind.jpeg"
-              width={50}
-              height={50}
-              alt="html"
-            />
-            <Image src="/techno/vite.png" width={50} height={50} alt="html" />
-            <Image src="/techno/next.png" width={50} height={50} alt="html" />
-            <Image
-              src="/techno/MongoDB.jpeg"
-              width={50}
-              height={50}
-              alt="html"
-            />
-            <Image
-              src="/techno/firebase.png"
-              width={50}
-              height={50}
-              alt="html"
-            />
-          </div>
-        </Marquee> */}
-      </section>
+      <TechnoSlider />
     </main>
   );
 }
