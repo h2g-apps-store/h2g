@@ -11,9 +11,10 @@ export default function Home() {
           <div className="bg-[#d8e3ff] w-[2500px]">
             <div className="h-[700px] py-48 px-24 space-y-5">
               <h1 className="font-bold text-6xl text-[#313b57]">
-                UI/UX & Brand Designer
+                Web Deloper, Frontend
+                {/* UI/UX & Brand Designer */}
               </h1>
-              <h6 className="text-2xl text-[#313b57]">Brighton, UK</h6>
+              <h6 className="text-2xl text-[#313b57]">Kinshasa, DRC</h6>
               <div>
                 <p className="text-justify text-3xl font-light">
                   I'm Greg, a freelance graphic and web designer who specialises
