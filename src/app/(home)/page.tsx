@@ -25,7 +25,7 @@ export default function Home() {
             </div>
             <div className="bg-[#313b57] h-40"></div>
           </div>
-          <div className="bg-blue-600 py-20 bg-[url('/me/deux.jpeg')] object-cover p-80"></div>
+          <div className="bg-blue-600 py-20 bg-[url('/me/quatre.png')] bg-cover p-80"></div>
         </div>
       </section>
       <section className="bg-[#313b57] h-screen pr-24 py-20">

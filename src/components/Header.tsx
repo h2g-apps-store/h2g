@@ -21,7 +21,7 @@ export default function Header() {
         <ul
           className={
             pathname == "/"
-              ? "flex justify-between gap-10 text-[#f4f4f4] text-2xl font-bold"
+              ? "flex justify-between gap-10 text-[#d8e3ff] text-2xl font-bold"
               : "flex justify-between gap-10 text-[#aab5d0] text-2xl font-bold"
           }
         >
