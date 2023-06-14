@@ -6,18 +6,18 @@ import { usePathname } from "next/navigation";
 export default function Header() {
   const pathname = usePathname();
   return (
-    <header className=" absolute w-full flex justify-between px-24  text-black py-10">
+    <header className=" absolute w-full flex justify-between px-8 sm:px-24  text-black py-5 sm:py-10">
       <Link
         href="/"
         className={
           pathname == "/"
-            ? "text-6xl font-light text-[#313b57]"
-            : "text-6xl font-light text-[#aab5d0]"
+            ? "text-3xl sm:text-6xl font-light text-[#313b57]"
+            : "text-3xl sm:text-6xl font-light text-[#aab5d0]"
         }
       >
         H2g
       </Link>
-      <nav>
+      <nav className="hidden sm:block">
         <ul
           className={
             pathname == "/"
