@@ -17,9 +17,13 @@ export default function Home() {
               <h6 className="text-2xl text-[#313b57]">Kinshasa, DRC</h6>
               <div>
                 <p className="text-justify text-3xl font-light">
-                  I'm Greg, a freelance graphic and web designer who specialises
-                  in branding, user interface and user experience design. I help
-                  businesses develop their on and offline identities.
+                  Hi, I'm <span className="font-bold">Herman GEKU</span>, a
+                  freelance{" "}
+                  <span className="italic">frontend web developer</span>. I
+                  specialize in branding, user interface (UI) and user
+                  experience (UX) design. I help companies develop their online
+                  and offline identity by creating visually appealing and
+                  user-friendly websites and web applications.
                 </p>
               </div>
             </div>
@@ -46,6 +50,12 @@ export default function Home() {
             </Link>
           </div>
         </div>
+      </section>
+      <section className="p-20">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+        iusto dignissimos praesentium illo ipsam minima, ut quaerat harum
+        delectus vel fugit eaque magni recusandae sunt ipsa. Voluptas nostrum
+        voluptatibus veritatis?
       </section>
       <TechnoSlider />
     </main>
