@@ -5,9 +5,11 @@ export default function Footer() {
     <footer className="bg-white text-black flex flex-col">
       <div className="p-10 sm:py-28 sm:px-24">
         <div className="space-y-6">
-          <h2 className="text-5xl font-bold">Want to work together?</h2>
+          <h2 className="text-2xl sm:text-5xl font-bold">
+            Want to work together?
+          </h2>
           <p className="font-bold text-xl">YEAH YOU DO!</p>
-          <Link href="/" className="text-6xl">
+          <Link href="/" className="text-3xl sm:text-6xl">
             Get in contact
           </Link>
         </div>

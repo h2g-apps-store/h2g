@@ -10,13 +10,15 @@ export default function Home() {
         <div className="flex flex-col sm:flex-row">
           <div className="bg-[#d8e3ff] sm:w-[2500px]">
             <div className="sm:h-[700px] p-10 sm:py-48 sm:px-24 space-y-5">
-              <h1 className="font-bold text-6xl text-[#313b57]">
+              <h1 className="font-bold text-3xl sm:text-6xl text-[#313b57]">
                 Web Deloper, Frontend
                 {/* UI/UX & Brand Designer */}
               </h1>
-              <h6 className="text-2xl text-[#313b57]">Kinshasa, DRC</h6>
+              <h6 className="text-xl sm:text-2xl text-[#313b57]">
+                Kinshasa, DRC
+              </h6>
               <div>
-                <p className="text-justify text-3xl font-light">
+                <p className="text-justify text-1xl sm:text-3xl font-light">
                   Hi, I'm <span className="font-bold">Herman GEKU</span>, a
                   freelance{" "}
                   <span className="italic">frontend web developer</span>. I
@@ -33,10 +35,10 @@ export default function Home() {
         </div>
       </section>
       <section className="bg-[#313b57] h-screen sm:pr-24 py-20">
-        <div className="flex flex-col sm:flex-row gap-10 sm:gap-32 mt-9">
+        <div className="flex flex-col sm:flex-row gap-24 sm:gap-32 mt-9">
           <div className="bg-white sm:max-h-[590px] sm:h-[590px] w-80 sm:w-[3000px] bg-[url('/fromscratch/5.jpg')] bg-cover bg-center rounded-tr-3xl rounded-br-3xl p-20 shadow-2xl shadow-gray-900"></div>
-          <div className="flex flex-col px-10 items-left gap-4 justify-center">
-            <h1 className="text-5xl font-bold">Consul Assure</h1>
+          <div className="flex flex-col px-10 items-left gap-8 justify-center">
+            <h1 className="text-4xl sm:text-5xl font-bold">Consul Assure</h1>
             <p className="text-justify text-xl">
               Find out how I branded a newly formed data migration company and
               created their web presence using a neon colour palette and
