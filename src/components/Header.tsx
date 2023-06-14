@@ -11,7 +11,7 @@ export default function Header() {
         href="/"
         className={
           pathname == "/"
-            ? "text-3xl sm:text-6xl font-light text-[#313b57]"
+            ? "text-3xl sm:text-6xl font-light text-[#aab5d0] sm:text-[#313b57]"
             : "text-3xl sm:text-6xl font-light text-[#aab5d0]"
         }
       >
