@@ -11,13 +11,12 @@ export default function Header() {
 
   const handleScroll = () => {
     const currentScrollPos = window.scrollY;
-    if (currentScrollPos <= 40) {
+    if (currentScrollPos < 40) {
       setVisible(false);
     } else {
       setVisible(true);
     }
   };
-  console.log(visible);
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
