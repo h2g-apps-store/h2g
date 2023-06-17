@@ -62,7 +62,7 @@ export default function Header() {
       <nav
         className={
           visible === true
-            ? "sm:hidden fixed  top-0 bg-gray-500 py-2 px-3 w-full"
+            ? "sm:hidden fixed z-auto  top-0 bg-gray-500 py-2 px-3 w-full"
             : "hidden"
         }
       >
