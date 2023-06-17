@@ -13,12 +13,12 @@ export default function page() {
           </p>
         </div>
         <div className="order-first sm:order-last flex justify-center items-center sm:w-[40%]">
-          <h1 className="text-6xl font-bold">h2g</h1>
+          <h1 className="text-6xl font-bold py-10">h2g</h1>
         </div>
       </section>
-      <section className="sm:min-h-screen bg-[#d6f4e2] px-10 sm:px-24 py-10 sm:py-52 space-y-14">
+      <section className="sm:min-h-screen bg-[#d6f4e2] px-10 sm:px-24 py-10 sm:py-20 space-y-14">
         <div className="flex flex-col sm:flex-row justify-between">
-          <div className="text-center sm:w-[30%]">
+          <div className="text-center sm:text-left sm:w-[30%]">
             <h1 className="text-4xl font-bold">Expertise</h1>
           </div>
           <div className="sm:w-[70%] space-y-5">
@@ -39,7 +39,7 @@ export default function page() {
       </section>
       <section className="bg-[#3a5244] min-h-screen sm:px-24 sm:py-20 flex justify-between sm:gap-40">
         <div className="sm:w-[40%] relative">
-          <div className="hidden sm:block border-2 border-gray-200 absolute w-full bg-[url('/image.jpeg')] bg-cover h-full -top-48"></div>
+          <div className="hidden sm:block border-2 border-gray-200 absolute w-full bg-[url('/image.jpeg')] bg-cover bg-center h-full -top-48"></div>
         </div>
         <div className="sm:w-[70%] p-10 space-y-5">
           <p className=" text-2xl text-justify font-light">
