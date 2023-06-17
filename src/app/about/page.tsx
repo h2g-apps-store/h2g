@@ -16,7 +16,121 @@ export default function page() {
           <h1 className="text-6xl font-bold py-10">h2g</h1>
         </div>
       </section>
-      <section className="sm:min-h-screen bg-[#d6f4e2] px-10 sm:px-24 py-10 sm:py-20 space-y-14">
+      <section className="sm:min-h-screen bg-[#d6f4e2] px-10 sm:px-24 py-10 sm:py-36 space-y-14">
+        <div className="flex flex-col sm:flex-row justify-between">
+          <div className="text-center sm:text-left sm:w-[30%]">
+            <h1 className="text-4xl font-bold">Expertise</h1>
+          </div>
+          <div className="sm:w-[70%] space-y-5">
+            <div>
+              <h1 className="text-xl sm:text-4xl font-bold my-5 sm:mb-5">
+                BRANDING
+              </h1>
+              <p className="font-light text-2xl">
+                Whether you are starting a new business or are looking to
+                refresh your current brand, I can help identify your market,
+                develop and grow your brand identity. From the fundamentals of
+                logo design and style guides, down to the minutiae of selecting
+                the correct paper stock for your new season brochure.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col sm:flex-row justify-between">
+          <div className="text-center sm:text-left sm:w-[30%]">
+            <h1 className="text-4xl font-bold">Expertise</h1>
+          </div>
+          <div className="sm:w-[70%] space-y-5">
+            <div>
+              <h1 className="text-xl sm:text-4xl font-bold my-5 sm:mb-5">
+                BRANDING
+              </h1>
+              <p className="font-light text-2xl">
+                Whether you are starting a new business or are looking to
+                refresh your current brand, I can help identify your market,
+                develop and grow your brand identity. From the fundamentals of
+                logo design and style guides, down to the minutiae of selecting
+                the correct paper stock for your new season brochure.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col sm:flex-row justify-between">
+          <div className="text-center sm:text-left sm:w-[30%]">
+            <h1 className="text-4xl font-bold">Expertise</h1>
+          </div>
+          <div className="sm:w-[70%] space-y-5">
+            <div>
+              <h1 className="text-xl sm:text-4xl font-bold my-5 sm:mb-5">
+                BRANDING
+              </h1>
+              <p className="font-light text-2xl">
+                Whether you are starting a new business or are looking to
+                refresh your current brand, I can help identify your market,
+                develop and grow your brand identity. From the fundamentals of
+                logo design and style guides, down to the minutiae of selecting
+                the correct paper stock for your new season brochure.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col sm:flex-row justify-between">
+          <div className="text-center sm:text-left sm:w-[30%]">
+            <h1 className="text-4xl font-bold">Expertise</h1>
+          </div>
+          <div className="sm:w-[70%] space-y-5">
+            <div>
+              <h1 className="text-xl sm:text-4xl font-bold my-5 sm:mb-5">
+                BRANDING
+              </h1>
+              <p className="font-light text-2xl">
+                Whether you are starting a new business or are looking to
+                refresh your current brand, I can help identify your market,
+                develop and grow your brand identity. From the fundamentals of
+                logo design and style guides, down to the minutiae of selecting
+                the correct paper stock for your new season brochure.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col sm:flex-row justify-between">
+          <div className="text-center sm:text-left sm:w-[30%]">
+            <h1 className="text-4xl font-bold">Expertise</h1>
+          </div>
+          <div className="sm:w-[70%] space-y-5">
+            <div>
+              <h1 className="text-xl sm:text-4xl font-bold my-5 sm:mb-5">
+                BRANDING
+              </h1>
+              <p className="font-light text-2xl">
+                Whether you are starting a new business or are looking to
+                refresh your current brand, I can help identify your market,
+                develop and grow your brand identity. From the fundamentals of
+                logo design and style guides, down to the minutiae of selecting
+                the correct paper stock for your new season brochure.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col sm:flex-row justify-between">
+          <div className="text-center sm:text-left sm:w-[30%]">
+            <h1 className="text-4xl font-bold">Expertise</h1>
+          </div>
+          <div className="sm:w-[70%] space-y-5">
+            <div>
+              <h1 className="text-xl sm:text-4xl font-bold my-5 sm:mb-5">
+                BRANDING
+              </h1>
+              <p className="font-light text-2xl">
+                Whether you are starting a new business or are looking to
+                refresh your current brand, I can help identify your market,
+                develop and grow your brand identity. From the fundamentals of
+                logo design and style guides, down to the minutiae of selecting
+                the correct paper stock for your new season brochure.
+              </p>
+            </div>
+          </div>
+        </div>
         <div className="flex flex-col sm:flex-row justify-between">
           <div className="text-center sm:text-left sm:w-[30%]">
             <h1 className="text-4xl font-bold">Expertise</h1>
