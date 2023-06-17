@@ -2,17 +2,37 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useEffect, useState } from "react";
 
 export default function Header() {
   const pathname = usePathname();
+
+  const [visible, setVisible] = useState<boolean>(true);
+
+  const handleScroll = () => {
+    const currentScrollPos = window.scrollY;
+    if (currentScrollPos <= 40) {
+      setVisible(false);
+    } else {
+      setVisible(true);
+    }
+  };
+  console.log(visible);
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  });
+
   return (
     <header className="absolute w-full flex flex-col sm:flex-row justify-between sm:items-center sm:px-24  text-black  sm:py-10">
       <Link
         href="/"
         className={
           pathname == "/"
-            ? "text-3xl sm:text-6xl font-light text-[#aab5d0] sm:text-[#313b57]"
-            : "text-3xl sm:text-6xl font-light text-[#aab5d0]"
+            ? "text-3xl p-10 sm:p-0 sm:text-6xl font-light text-[#aab5d0] sm:text-[#313b57]"
+            : "text-3xl p-10 sm:p-0 sm:text-6xl font-light text-[#aab5d0]"
         }
       >
         H2g
@@ -39,7 +59,13 @@ export default function Header() {
           </li>
         </ul>
       </nav>
-      <nav className="sm:hidden absolute top-0 bg-gray-500 py-2 px-3 w-full">
+      <nav
+        className={
+          visible === true
+            ? "sm:hidden fixed  top-0 bg-gray-500 py-2 px-3 w-full"
+            : "hidden"
+        }
+      >
         <ul
           className={
             pathname == "/"
