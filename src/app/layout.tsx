@@ -1,8 +1,7 @@
-import Header from "@/components/Header";
-import "../globals.css";
+import "./globals.css";
 
 export const metadata = {
-  title: "herman | Contact",
+  title: "herman | geku",
   description:
     "Hi, I'm Herman GEKU, a freelance frontend web developer. I specialize in branding, user interface (UI) and user experience (UX) design. I help companies develop their online and offline identity by creating visually appealing and user-friendly websites and web applications.",
 };
@@ -34,10 +33,7 @@ export default function RootLayout({
         />
         <link rel="manifest" href="/favicon/site.webmanifest" />
       </head>
-      <body>
-        <Header />
-        {children}
-      </body>
+      <body className="p-0 m-0">{children}</body>
     </html>
   );
 }
