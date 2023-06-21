@@ -1,4 +1,3 @@
-import { content } from "../Content";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -6,6 +5,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 
+import { content } from "@/Contents/content";
+import Image from "next/image";
 import { useState } from "react";
 import { Pagination } from "swiper";
 
@@ -46,7 +47,13 @@ const Testimonials = () => {
                border-slate-200 md:flex-row flex-col
                 ${activeIndex !== i && "scale-75 blur-sm"}`}
               >
-                <img src={content.img} alt="..." className="h-24" />
+                <Image
+                  src={content.img}
+                  alt={content.name}
+                  width={200}
+                  height={200}
+                  className="h-24"
+                />
                 <div>
                   <p className="sm:text-base text-sm">{content.review}</p>
                   <br />

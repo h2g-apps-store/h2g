@@ -1,4 +1,5 @@
-import { content } from "../Content";
+import { content } from "@/Contents/content";
+import Image from "next/image";
 
 const Services = () => {
   const { services } = content;
@@ -21,7 +22,13 @@ const Services = () => {
               className="min-w-[14rem] duration-300 cursor-pointer border-2 border-slate-200 rounded-xl text-center bg-bg_light_primary p-6 flex-1 group-hover:blur-sm 
               hover:!blur-none"
             >
-              <img src={content.logo} alt="..." className="mx-auto" />
+              <Image
+                src={content.logo}
+                alt={content.title}
+                className="mx-auto"
+                width={50}
+                height={50}
+              />
               <h6 className="my-3">{content.title}</h6>
               <p className="leading-7">{content.para}</p>
             </div>

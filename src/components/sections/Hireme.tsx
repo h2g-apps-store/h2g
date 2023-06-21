@@ -1,4 +1,5 @@
-import { content } from "../Contents/Content";
+import { content } from "@/Contents/content";
+import Image from "next/image";
 
 const Hireme = () => {
   const { Hireme } = content;
@@ -14,17 +15,21 @@ const Hireme = () => {
         </h4>
         <br />
         <div className="flex items-center md:flex-row flex-col-reverse ">
-          <img
+          <Image
             src={Hireme.image1}
-            alt="..."
+            alt={Hireme.title}
             data-aos="fade-right"
+            width={400}
+            height={400}
             className="max-w-sm md:block hidden"
           />
-          <img
+          <Image
             src={Hireme.image2}
+            alt={Hireme.title}
             data-aos="fade-up"
-            alt="..."
             className="max-w-sm md:hidden"
+            height={400}
+            width={400}
           />
           <div
             data-aos="fade-left"
