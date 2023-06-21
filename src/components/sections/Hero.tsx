@@ -47,8 +47,8 @@ const Hero = () => {
             src={hero.image}
             data-aos="slide-up"
             alt="img-cover"
-            width={50}
-            height={50}
+            width={430}
+            height={430}
             className="h-full object-cover"
           />
         </div>

@@ -1,6 +1,9 @@
+"use client";
 // import content
+import { content } from "@/Contents/content";
+import Image from "next/image";
 import { createElement, useState } from "react";
-import { content } from "../Content";
+
 // import modal package
 import Modal from "react-modal";
 
@@ -24,7 +27,7 @@ Modal.setAppElement("#root");
 const Skills = () => {
   const { skills } = content;
   const [modalIsOpen, setIsOpen] = useState(false);
-  const [selectSkill, setSelectSkill] = useState(null);
+  const [selectSkill, setSelectSkill] = useState<String | any>(null);
 
   function openModal() {
     setIsOpen(true);
@@ -87,15 +90,17 @@ const Skills = () => {
                 gap-5 p-5 max-w-sm rounded-md border-2 border-slate-200"
             >
               <div>
-                <img
-                  src={skill.logo}
-                  alt="..."
+                <Image
+                  src={skill?.logo}
+                  alt={skill?.name}
                   className="w-10 group-hover:scale-125 duration-200"
+                  width={200}
+                  height={200}
                 />
               </div>
               <div>
-                <h6>{skill.name}</h6>
-                <p className="italic">{skill.para}</p>
+                <h6>{skill?.name}</h6>
+                <p className="italic">{skill?.para}</p>
                 <div
                   onClick={() => {
                     setSelectSkill(skill);

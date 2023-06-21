@@ -33,7 +33,9 @@ export default function RootLayout({
         />
         <link rel="manifest" href="/favicon/site.webmanifest" />
       </head>
-      <body className="p-0 m-0">{children}</body>
+      <body className="p-0 m-0" id="root">
+        {children}
+      </body>
     </html>
   );
 }
