@@ -9,14 +9,14 @@ const Navbar = () => {
 
   return (
     <div className="w-full flex justify-center">
-      <nav className="hidden fixed w-full  z-[999] lg:flex justify-center gap-10 items-center px-6  py-3 backdrop-blur-md  bg-green-400 text-dark_primary duration-300">
+      <nav className="hidden fixed w-full  z-[999] lg:flex justify-center gap-10 items-center px-6  py-3 backdrop-blur-md  bg-dark_primary text-white duration-300">
         {nav.map((item, i) => (
           <a
             key={item.id}
             href={item.link}
             onClick={() => setActive(i)}
             className={`text-xl p-2.5 rounded-full sm:cursor-pointer 
-     ${i === active && "bg-dark_primary text-white"} `}
+     ${i === active && "bg-primaryLinear text-dark_primary"} `}
           >
             {createElement(item.icon)}
           </a>
