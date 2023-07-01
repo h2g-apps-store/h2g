@@ -28,27 +28,20 @@ const Hero = () => {
           {/* <div className="hidden lg:flex justify-end">
             <button className="btn">{hero.btnText}</button>
           </div> */}
-          <div className="flex flex-col gap-10  mb-44">
+          <div className="flex flex-col gap-10  mb-44 bg-white p-5 sm:p-0 sm:bg-none">
             <div
               data-aos="fade-down"
               data-aos-delay="300"
               className="flex items-center w-80 gap-5"
             >
               {/* <h3>H</h3> */}
-              <p className="text-xl text-left tracking-wide leading-loose text-[#017260] sm:text-dark_primary">
-                Salut 👋🏾, je suis{" "}
-                <span className="font-bold text-[#13aa5f]">Herman GEKU</span>,
-                un{" "}
-                <span className="font-bold text-[#13aa5f]">
-                  Développeur full stack
-                </span>{" "}
+              <p className="text-xl text-left tracking-wide leading-loose text-dark_primary">
+                Salut 👋🏾, je suis <span className="font-bold">Herman GEKU</span>
+                , un <span className="font-bold">Développeur full stack</span>{" "}
                 passionné et créatif. Je donne vie aux idées à travers le code
-                en créant des{" "}
-                <span className="italic text-[#13aa5f] ">Site Web👨🏾‍💻</span>
-                <span className="italic text-[#13aa5f]">
-                  Application Mobile📱
-                </span>{" "}
-                attrayants et fonctionnels.
+                en créant des <span className="italic">Site Web👨🏾‍💻</span>
+                <span className="italic">Application Mobile📱</span> attrayants
+                et fonctionnels.
               </p>
             </div>
           </div>

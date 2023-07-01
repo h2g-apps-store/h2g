@@ -1,12 +1,18 @@
 // import images
 import Hero_person from "../assets/images/Hero/person.png";
 
+import mongoDB from "../assets/images/Skills/MongoDB.jpeg";
+import ex from "../assets/images/Skills/ex.png";
 import figma from "../assets/images/Skills/figma.png";
+import html_css from "../assets/images/Skills/html-csc.jpeg";
+import js from "../assets/images/Skills/js.png";
+import mysql from "../assets/images/Skills/msql.png";
+
 import nodejs from "../assets/images/Skills/node.png";
-import ps from "../assets/images/Skills/ps.png";
-import python from "../assets/images/Skills/python.png";
+import prisma from "../assets/images/Skills/prisma.png";
 import reactjs from "../assets/images/Skills/react.png";
-import sketch from "../assets/images/Skills/sketch.png";
+import rn from "../assets/images/Skills/rn.png";
+import ts from "../assets/images/Skills/ts.png";
 
 import services_logo2 from "../assets/images/Services/consultation.png";
 import services_logo3 from "../assets/images/Services/developpement-mobile.png";
@@ -91,17 +97,17 @@ export const content = {
       {
         name: "Html & Css",
         para: "Lorem ipsum text  dummy",
-        logo: figma,
+        logo: html_css,
       },
       {
         name: "JavaScript",
         para: "Lorem ipsum text  dummy",
-        logo: ps,
+        logo: js,
       },
       {
         name: "TypeScript",
         para: "Lorem ipsum text  dummy",
-        logo: ps,
+        logo: ts,
       },
       {
         name: "Node js",
@@ -111,7 +117,7 @@ export const content = {
       {
         name: "Express js",
         para: "Lorem ipsum text  dummy",
-        logo: nodejs,
+        logo: ex,
       },
       {
         name: "React js ",
@@ -121,22 +127,27 @@ export const content = {
       {
         name: "React Native",
         para: "Lorem ipsum text  dummy",
-        logo: reactjs,
+        logo: rn,
       },
       {
         name: "Figma",
         para: "Lorem ipsum text  dummy",
-        logo: sketch,
+        logo: figma,
       },
       {
         name: "Mysql",
         para: "Lorem ipsum text  dummy",
-        logo: python,
+        logo: mysql,
       },
       {
         name: "Prisma",
         para: "Lorem ipsum text  dummy",
-        logo: python,
+        logo: prisma,
+      },
+      {
+        name: "MongoDB",
+        para: "Lorem ipsum text  dummy",
+        logo: mongoDB,
       },
     ],
     icon: MdArrowForward,

@@ -11,7 +11,7 @@ const Projects = () => {
   const { Projects } = content;
   return (
     <section className="bg-bg_light_primary" id="projects">
-      <div className="md:container px-5 pt-14 min-h-screen flex flex-col gap-5">
+      <div className="md:container px-5 py-14 flex flex-col gap-5">
         <div>
           {/* <h2 className="title" data-aos="fade-down">
             {Projects.title}
@@ -19,7 +19,6 @@ const Projects = () => {
           <h4 className="subtitle" data-aos="fade-down">
             {Projects.subtitle}
           </h4>
-          <br />
         </div>
         <div className="border border-gray-300">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus
