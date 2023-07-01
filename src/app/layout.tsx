@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata = {
   title: "herman | geku",
   description:
-    "Hi, I'm Herman GEKU, a freelance frontend web developer. I specialize in branding, user interface (UI) and user experience (UX) design. I help companies develop their online and offline identity by creating visually appealing and user-friendly websites and web applications.",
+    "Salut 👋🏾, Je suis Herman Geku.  Je suis Développeur full stack  passionné et créatif. Je donne vie aux idées à travers le code en créant des Site Web 👨🏽‍💻 Application Mobile 📱 attrayants et fonctionnels.",
 };
 
 export default function RootLayout({
