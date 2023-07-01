@@ -43,7 +43,7 @@ const Contact = () => {
         <h2 className="title !text-white" data-aos="fade-down">
           {Contact.title}
         </h2>
-        <h4 className="subtitle" data-aos="fade-down">
+        <h4 className="subtitle text-white text-xl" data-aos="fade-down">
           {Contact.subtitle}
         </h4>
         <br />
@@ -58,7 +58,7 @@ const Contact = () => {
             <input
               type="text"
               name="from_name"
-              placeholder="Name"
+              placeholder="Nom complet"
               required
               className="border border-slate-600 p-3 rounded"
             />
@@ -66,7 +66,7 @@ const Contact = () => {
               type="email"
               name="user_email"
               pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"
-              placeholder="Email Id"
+              placeholder="Adresse e-mail"
               required
               className="border border-slate-600 p-3 rounded"
             />
@@ -77,11 +77,11 @@ const Contact = () => {
               required
             ></textarea>
             <button
-              className="btn self-start
+              className="btn
             bg-white text-dark_primary"
               disabled={isloading}
             >
-              {isloading ? "Loading..." : "Submit"}
+              {isloading ? "Chargement..." : "Contactez"}
             </button>
           </form>
           <div className="flex-1 flex flex-col gap-5">
