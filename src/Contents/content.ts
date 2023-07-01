@@ -1,5 +1,5 @@
 // import images
-import Hero_person from "../assets/images/Hero/person.png";
+import Hero_person from "../assets/images/Hero/hero-01.png";
 
 import mongoDB from "../assets/images/Skills/MongoDB.jpeg";
 import ex from "../assets/images/Skills/ex.png";

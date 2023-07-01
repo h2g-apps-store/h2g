@@ -23,7 +23,7 @@ const Hero = () => {
 
         {/* first col */}
         <div className="pb-16 px-6 pt-5" data-aos="fade-down">
-          <h2 className="mb-3">
+          <h2 className="mb-3 hidden sm:block">
             Salut 👋🏾, Je suis <br /> Herman Geku.
           </h2>
           {/* 
@@ -39,6 +39,9 @@ const Hero = () => {
             >
               {/* <h3>H</h3> */}
               <p className="text-xl text-left tracking-wide leading-loose text-dark_primary">
+                <span className="block sm:hidden">
+                  Salut 👋🏾, Je suis Herman Geku.
+                </span>
                 Je suis{" "}
                 <span className="font-bold">Développeur full stack</span>{" "}
                 passionné et créatif. Je donne vie aux idées à travers le code
