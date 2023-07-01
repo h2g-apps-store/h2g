@@ -1,6 +1,8 @@
 // import content
 import { content } from "@/Contents/content";
 import Image from "next/image";
+import Link from "next/link";
+import { HiDownload } from "react-icons/hi";
 
 const Hero = () => {
   const { hero } = content;
@@ -21,14 +23,15 @@ const Hero = () => {
 
         {/* first col */}
         <div className="pb-16 px-6 pt-5" data-aos="fade-down">
-          {/* <h2>
-            Salut, Je suis <br /> Herman Geku
+          <h2 className="mb-3">
+            Salut 👋🏾, Je suis <br /> Herman Geku.
           </h2>
+          {/* 
           <br /> */}
           {/* <div className="hidden lg:flex justify-end">
             <button className="btn">{hero.btnText}</button>
           </div> */}
-          <div className="flex flex-col gap-10  mb-44 bg-white p-5 sm:p-0 sm:bg-none">
+          <div className="flex flex-col gap-10  mb-28 bg-white p-5 sm:p-0 sm:bg-none">
             <div
               data-aos="fade-down"
               data-aos-delay="300"
@@ -36,12 +39,21 @@ const Hero = () => {
             >
               {/* <h3>H</h3> */}
               <p className="text-xl text-left tracking-wide leading-loose text-dark_primary">
-                Salut 👋🏾, je suis <span className="font-bold">Herman GEKU</span>
-                , un <span className="font-bold">Développeur full stack</span>{" "}
+                Je suis{" "}
+                <span className="font-bold">Développeur full stack</span>{" "}
                 passionné et créatif. Je donne vie aux idées à travers le code
                 en créant des <span className="italic">Site Web👨🏾‍💻</span>
                 <span className="italic">Application Mobile📱</span> attrayants
                 et fonctionnels.
+                <Link
+                  href="#0"
+                  className="w-full mt-3 px-5 flex items-center justify-between border-2 font-bold border-gray-200 rounded-full hover:bg-gray-200 border-gray-200"
+                >
+                  <span> Telecharger mon Cv</span>
+                  <span>
+                    <HiDownload />
+                  </span>
+                </Link>
               </p>
             </div>
           </div>
