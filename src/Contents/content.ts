@@ -163,8 +163,8 @@ export const content = {
     ],
   },
   Projects: {
-    title: "Projects",
-    subtitle: "MY CREATION",
+    title: "Projet",
+    subtitle: "Mes Projets",
     image: person_project,
     project_content: [
       {
