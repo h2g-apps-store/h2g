@@ -85,13 +85,23 @@ export const content = {
     ],
   },
   skills: {
-    title: "Skills",
-    subtitle: "MY TOP SKILLS",
+    title: "Compétences",
+    subtitle: "MES MEILLEURES COMPÉTENCES",
     skills_content: [
       {
-        name: "Figma",
+        name: "Html & Css",
         para: "Lorem ipsum text  dummy",
         logo: figma,
+      },
+      {
+        name: "JavaScript",
+        para: "Lorem ipsum text  dummy",
+        logo: ps,
+      },
+      {
+        name: "TypeScript",
+        para: "Lorem ipsum text  dummy",
+        logo: ps,
       },
       {
         name: "Node js",
@@ -99,22 +109,32 @@ export const content = {
         logo: nodejs,
       },
       {
-        name: "Adobe Photoshop",
+        name: "Express js",
         para: "Lorem ipsum text  dummy",
-        logo: ps,
+        logo: nodejs,
       },
       {
-        name: "React js",
+        name: "React js ",
         para: "Lorem ipsum text  dummy",
         logo: reactjs,
       },
       {
-        name: "Sketch",
+        name: "React Native",
+        para: "Lorem ipsum text  dummy",
+        logo: reactjs,
+      },
+      {
+        name: "Figma",
         para: "Lorem ipsum text  dummy",
         logo: sketch,
       },
       {
-        name: "Python",
+        name: "Mysql",
+        para: "Lorem ipsum text  dummy",
+        logo: python,
+      },
+      {
+        name: "Prisma",
         para: "Lorem ipsum text  dummy",
         logo: python,
       },
@@ -123,7 +143,7 @@ export const content = {
   },
   services: {
     title: "Services",
-    subtitle: "WHAT I OFFER",
+    subtitle: "CE QUE J'OFFRE",
     service_content: [
       {
         title: "Web Development",
