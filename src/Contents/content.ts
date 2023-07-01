@@ -28,41 +28,43 @@ import Hireme_person2 from "../assets/images/Hireme/person2.png";
 // import icons from react-icons
 import { BiUser } from "react-icons/bi";
 import { BsInstagram } from "react-icons/bs";
+import { FaProjectDiagram } from "react-icons/fa";
+import { GiSkills } from "react-icons/gi";
 import { GrMail } from "react-icons/gr";
 import {
   MdArrowForward,
   MdCall,
-  MdOutlinePermContactCalendar,
+  MdOutlineMiscellaneousServices,
 } from "react-icons/md";
-import { RiProjectorLine, RiServiceLine } from "react-icons/ri";
-import { TbSmartHome } from "react-icons/tb";
+
+import { LuContact } from "react-icons/lu";
 
 export const content = {
   nav: [
     {
       id: 1,
       link: "#home",
-      icon: TbSmartHome,
+      icon: BiUser,
     },
     {
       id: 2,
       link: "#skills",
-      icon: BiUser,
+      icon: GiSkills,
     },
     {
       id: 3,
       link: "#services",
-      icon: RiServiceLine,
+      icon: MdOutlineMiscellaneousServices,
     },
     {
       id: 4,
       link: "#projects",
-      icon: RiProjectorLine,
+      icon: FaProjectDiagram,
     },
     {
       id: 5,
       link: "#contact",
-      icon: MdOutlinePermContactCalendar,
+      icon: LuContact,
     },
   ],
   hero: {

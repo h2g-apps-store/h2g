@@ -16,7 +16,7 @@ const Navbar = () => {
             href={item.link}
             onClick={() => setActive(i)}
             className={`text-xl p-2.5 rounded-full sm:cursor-pointer 
-     ${i === active && "bg-primaryLinear text-dark_primary"} `}
+     ${i === active && "bg-primaryLinear text-[#13aa5f]"} `}
           >
             {createElement(item.icon)}
           </a>
@@ -29,7 +29,7 @@ const Navbar = () => {
             href={item.link}
             onClick={() => setActive(i)}
             className={`text-xl p-2.5 rounded-full sm:cursor-pointer 
-     ${i === active && "bg-dark_primary text-white"} `}
+     ${i === active && "bg-primaryLinear text-[#13aa5f]"} `}
           >
             {createElement(item.icon)}
           </a>
