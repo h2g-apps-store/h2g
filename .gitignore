@@ -15,6 +15,9 @@
 # production
 /build
 
+/public/green.png
+/public/green01.jpeg
+
 # misc
 .DS_Store
 *.pem
