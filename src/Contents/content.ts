@@ -8,9 +8,9 @@ import python from "../assets/images/Skills/python.png";
 import reactjs from "../assets/images/Skills/react.png";
 import sketch from "../assets/images/Skills/sketch.png";
 
-import services_logo1 from "../assets/images/Services/logo1.png";
-import services_logo2 from "../assets/images/Services/logo2.png";
-import services_logo3 from "../assets/images/Services/logo3.png";
+import services_logo2 from "../assets/images/Services/consultation.png";
+import services_logo3 from "../assets/images/Services/developpement-mobile.png";
+import services_logo1 from "../assets/images/Services/developpeur.png";
 
 import project1 from "../assets/images/projects/img1.png";
 import project2 from "../assets/images/projects/img2.png";
@@ -146,17 +146,17 @@ export const content = {
     subtitle: "CE QUE J'OFFRE",
     service_content: [
       {
-        title: "Web Development",
+        title: "Développement Web",
         para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
         logo: services_logo1,
       },
       {
-        title: "ui / ux DESIGNING",
+        title: "Développement mobile",
         para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
         logo: services_logo2,
       },
       {
-        title: "PhotoShop Editing",
+        title: "Conseils et consultation",
         para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
         logo: services_logo3,
       },
