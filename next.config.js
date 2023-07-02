@@ -2,7 +2,6 @@
 const nextConfig = {
   env: {
     output: "export",
-    customKey: "my-value",
   },
 };
 
